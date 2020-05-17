@@ -1,4 +1,8 @@
 
+
+let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog] ;
+
+
 function exerciseDog(dogName, dogBreed){
   let reArray=[];
   for(let i=0;i<routine.length;i++){
@@ -39,6 +43,4 @@ function unleashDog(dogName,dogBreed){
   let message=`Unleash ${dogName} the ${dogBreed}`;
   return message; }
   
-
-let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog] ;
 
